@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap");
+
+.cart-section {
+  background-color: #f5f5f5;
+  font-family: "Inter";
+  width: 365px;
+  padding-bottom: 20px;
+  margin-left: 5px;
+}
+.div-h2 {
+  margin: 0px 0px 0px 0px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+  height: 65px;
+  border-radius: 5px 5px 0px 0px;
+  background-color: #27ae60;
+}
+.div-h2 h2 {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+.empty-cart h3 {
+  color: #333333;
+  padding-top: 50px;
+  margin: 0px;
+}
+.empty-cart p {
+  color: #828282;
+  padding-bottom: 44px;
+}
+
+.empty-cart {
+  background-color: #f5f5f5;
+  width: 100%;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.cart {
+  overflow: auto;
+  height: 325px;
+  padding: 0px;
+  border-bottom: solid 2px #e0e0e0;
+}
+.cart li {
+  display: flex;
+  list-style: none;
+  margin: 0px 0px 20px 10px;
+}
+.cart img {
+  width: 70px;
+  height: 70px;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+}
+.cart h3 {
+  text-overflow: ellipsis;
+  height: 30px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #333333;
+  margin: 0px;
+}
+.cart button {
+  height: 15px;
+  border-style: none;
+  background-color: #f5f5f5;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #bdbdbd;
+}
+
+.cart p {
+  margin: 0px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  color: #828282;
+}
+
+.cart div {
+  margin: 0px 30px 0px 15px;
+  width: 175px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.total {
+  height: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  flex-flow: wrap row;
+  justify-content: space-between;
+  align-content: flex-start;
+}
+.total p {
+  margin-top: 0px;
+  font-size: 14px;
+  color: #333333;
+}
+.total span {
+  font-size: 14px;
+  color: #828282;
+  margin-top: 0px;
+  margin-bottom: 13px;
+}
+.remove-all {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 20px;
+  background: #e0e0e0;
+  border: 2px solid #e0e0e0;
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 343px;
+  height: 60px;
+  top: 62px;
+  margin-left: 10px;
+  color: #828282;
+  font-weight: 600;
+  font-size: 16px;
+}

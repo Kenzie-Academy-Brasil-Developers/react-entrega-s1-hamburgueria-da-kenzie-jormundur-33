@@ -1,0 +1,23 @@
+.products-ul {
+  overflow: auto;
+  display: flex;
+  flex-direction: row;
+  height: 346px;
+  padding: 0px;
+  margin-left: 15px;
+}
+
+@media screen and (min-width: 1024px) {
+  .products-ul {
+    height: 720px;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .products-ul {
+    width: 950px;
+    margin-top: 30px;
+  }
+}
+
