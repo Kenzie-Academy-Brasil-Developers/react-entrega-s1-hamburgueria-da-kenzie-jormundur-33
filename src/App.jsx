@@ -14,7 +14,7 @@ function App() {
   const [products, setProducts] = useState([]);
   const [filteredProducts, setFilteredProducts] = useState([]);
   const [currentSale, setCurrentSale] = useState([]);
-  const [cartTotal, setCartTotal] = useState([]);
+  // const [cartTotal, setCartTotal] = useState([]);
 
   function showProducts(searchedProduct) {
     const item = searchedProduct

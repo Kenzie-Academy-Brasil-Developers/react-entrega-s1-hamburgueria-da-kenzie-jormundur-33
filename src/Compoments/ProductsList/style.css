@@ -9,6 +9,7 @@
 
 @media screen and (min-width: 1024px) {
   .products-ul {
+    width: 640px;
     height: 720px;
     flex-wrap: wrap;
   }

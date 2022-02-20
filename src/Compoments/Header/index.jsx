@@ -1,4 +1,4 @@
-import { useState } from "react/cjs/react.development";
+import { useState } from "react";
 import burguer from "../img/burguer.svg";
 import "./style.css";
 

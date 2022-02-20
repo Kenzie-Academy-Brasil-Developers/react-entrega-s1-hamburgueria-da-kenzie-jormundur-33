@@ -5,7 +5,6 @@
   font-family: "Inter";
   width: 365px;
   padding-bottom: 20px;
-  margin-left: 5px;
 }
 .div-h2 {
   margin: 0px 0px 0px 0px;
@@ -41,7 +40,7 @@
 
 .cart {
   overflow: auto;
-  height: 325px;
+  max-height: 325px;
   padding: 0px;
   border-bottom: solid 2px #e0e0e0;
 }
